@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "subtitle": "No Collection of Personal Data",
+        "content": "\"CODIBARA\" does not collect, store, or transmit any personally identifiable information or personal data from users. We do not require users to log in or provide any personal information to use our app."
+    },
+    {
+        "id": 2,
+        "subtitle": "Data Storage and Security",
+        "content": "All data entered by users, including habit tracking data, remains stored locally on the user's device. We do not store this data on any external servers or databases."
+    },
+    {
+        "id": 3,
+        "subtitle": "No Third-Party Sharing",
+        "content": "We do not share any user data with third parties, except as required by law. Your information is solely controlled and accessed by you through the \"CODIBARA\" iOS/android app."
+    },
+    {
+        "id": 4,
+        "subtitle": "Transparency and Control",
+        "content": "We are committed to transparency regarding our data practices. If you have any questions or concerns about how we handle user data or personal information, please contact us at [codibara.info@gmail.com]. We are here to address any inquiries and provide further information about our privacy practices."
+    },
+    {
+        "id": 5,
+        "subtitle": "Continuous Compliance",
+        "content": "We continuously review and update our privacy practices to ensure compliance with Apple's App Store and Google Play guidelines and applicable privacy laws and regulations. This Privacy Policy will be updated as needed to reflect any changes in our data handling practices. \n\n By using \"Codibar\"’s App, you acknowledge and agree to the terms outlined in this Privacy Policy. Your trust is important to us, and we are dedicated to providing you with a safe and secure experience while using our app."
+    }
+  ]

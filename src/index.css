@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+@tailwind utilities;
+
+
+@theme {
+    --color-*: initial;
+    --color-primary: rgba(206,91,22,1);
+    --color-secondary: rgba(63,81,97,1);
+    --color-tertiary: rgba(240,237,207,1);
+    --color-subcolor: rgba(189,192,189,1);
+    --color-subcolor-light: rgba(234,234,234,1);
+    --color-body: rgb(22, 17, 17);
+    --color-onDark: rgba(245,245,245,1);
+    
+    --font-chivo: "Chivo Mono", monospace;
+    --font-noto: "Noto Sans", sans-serif;
+  }
+
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth !important;
+}
+
+li {
+    list-style: none;
+}
+
+a:hover{
+    color: var(--color-primary);
+    cursor: pointer;
+}
+
+.link-hover:hover .chevronRight,
+.link-hover:hover p {
+  color: var(--color-primary);
+}
+
+
+@layer components {
+    .nav-item {
+      font-family: var(--font-chivo);
+      color: var(--color-body);
+      height: 27px;
+    }
+
+    .nav-item:hover{
+      color: var(--color-primary);
+      border-bottom: 2px solid var(--color-primary);
+      cursor: pointer;
+    }
+  }
