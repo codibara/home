@@ -14,7 +14,7 @@ export default function Footer(){
                 </div>
                 <div className='w-full flex flex-col md:flex-row items-center md:items-start md:justify-between gap-3 font-noto text-subcolor py-5'>
                     <div className='flex flex-col items-center md:items-end gap-3'>
-                        <a onClick={() => window.open("/policy", "_blank")}className='underline md:text-xl'>Policy</a>
+                        <a onClick={() => window.open("#/policy", "_blank")}className='underline md:text-xl'>Policy</a>
                         <a className="hover:text-primary md:text-xl" href='mailto:Codibara.info@gmail.com<'>Codibara.info@gmail.com</a>
                     </div>
                     <p className='font-noto text-xs md:-order-1 md:text-xl'>&copy;CodiBara All rights reserved.</p>
