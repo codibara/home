@@ -2,7 +2,7 @@
   "name": "codibara",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://nosora0422.github.io/codibara/#",
+  "homepage": "https://codibara.github.io/home/#",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
