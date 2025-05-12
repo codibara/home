@@ -49,6 +49,13 @@ a:hover{
   color: var(--color-primary);
 }
 
+.swiper{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 @layer components {
     .nav-item {
       font-family: var(--font-chivo);
