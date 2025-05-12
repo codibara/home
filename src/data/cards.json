@@ -2,21 +2,36 @@
   {
     "id": 1,
     "title": "thul.club",
-    "description": "Make a connection Without Borders – Connect, Learn, Grow.",
+    "subtitle": "Bring Online Retails In your Palm",
+    "description": [
+      "A web app for exploring Instagram businesses in one place",
+      "Clean, Card-Style Layout for Easy Browsing",
+      "Direct Link to Each Instagram Account for Quick Access"
+    ],
     "image": "./assets/thumbnail-thul.png",
     "award": true
   },
   {
     "id": 2,
     "title": "CAVY",
-    "description": "Capture, Archive, Vault, Your Moments.",
+    "subtitle": "Capture, Archive, Vault, Your Moments.",
+    "description": [
+      "A web app for exploring Instagram businesses in one place",
+      "Clean, Card-Style Layout for Easy Browsing",
+      "Direct Link to Each Instagram Account for Quick Access"
+    ],
     "image": "./assets/thumbnail-cavy.png",
     "award": true
   },
   {
     "id": 3,
     "title": "bori",
-    "description": "Bring Online Retails In your palm.",
+    "subtitle": "Bring Online Retails In your Palm",
+    "description": [
+      "A web app for exploring Instagram businesses in one place",
+      "Clean, Card-Style Layout for Easy Browsing",
+      "Direct Link to Each Instagram Account for Quick Access"
+    ],
     "image": "./assets/thumbnail-bori.png",
     "award": false,
     "link" : "https://www.codibara.com/"
@@ -24,14 +39,24 @@
   {
     "id": 4,
     "title": "Random Game",
-    "description": "APT, APT, APT Do you want to know more about K-Drinking Game?",
+    "subtitle": "Bring Online Retails In your Palm",
+    "description": [
+      "A web app for exploring Instagram businesses in one place",
+      "Clean, Card-Style Layout for Easy Browsing",
+      "Direct Link to Each Instagram Account for Quick Access"
+    ],
     "image": "./assets/thumbnail-RG.png",
     "award": false
   },
   {
     "id": 5,
     "title": "Random Game2",
-    "description": "APT, APT, APT Do you want to know more about K-Drinking Game?",
+    "subtitle": "Bring Online Retails In your Palm",
+    "description": [
+      "A web app for exploring Instagram businesses in one place",
+      "Clean, Card-Style Layout for Easy Browsing",
+      "Direct Link to Each Instagram Account for Quick Access"
+    ],
     "image": "./assets/thumbnail-RG.png",
     "award": false
   }
