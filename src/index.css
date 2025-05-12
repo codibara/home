@@ -38,7 +38,7 @@ a:hover{
 }
 
 .grid-background{
-  background-image: url("./assets/grid.svg");
+  background-image: url("/assets/grid.svg");
 }
 
 .carousel-button{
