@@ -37,6 +37,17 @@ a:hover{
   color: var(--color-primary);
 }
 
+.grid-background{
+  background-image: url("./assets/grid.svg");
+}
+
+.carousel-button{
+  color: var(--color-secondary);
+}
+
+.carousel-button:hover{
+  color: var(--color-primary);
+}
 
 @layer components {
     .nav-item {
