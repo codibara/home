@@ -1,30 +1,52 @@
 import '../../index.css'
+import awardMark from '/assets/Award-mark.svg';
 
-import { ChevronRight, Award } from 'react-bootstrap-icons';
+import { ArrowUpRight} from 'react-bootstrap-icons';
 
-export default function Card({ image, title, description, link, award}){
+export default function Card({ image, title, subtitle, description, link, award}){
     return(
-        <>
-            <img 
-                src={image}
-            />
-            <div>
-                <div className='flex flex-row items-center justify-between gap-1'>
-                    <div className='flex flex-row items-center'>
-                        <p className='font-noto font-semibold text-body text-xl py-2'>{title}</p>
-                        {award ? (<Award color='rgba(206,91,22,1)' size={24}/>) : ''}
+        <div className='flex flex-row justify-center items-center'>
+            <div className='flex flex-col md:flex-row w-full md:w-10/12 max-w-[887px]'>
+                <img
+                    className='w-full aspect-square object-cover object-top md:w-5/12 lg:w-[350px]' 
+                    src={image}
+                />
+                <div className={`relative flex flex-col items-end gap-12 p-12 lg:pt-16 ${link ? 'lg:pb-8' : 'lg:pb-16'} lg:px-14 bg-bgWhite overflow-hidden`}>
+                    {award ? (
+                        <div className='absolute top-0 right-0'>
+                        <div className='w-0 h-0 border-l-[95px] border-t-[95px] border-l-transparent border-t-tertiary'>
+                        </div>
+                        <img
+                            src={awardMark}
+                            className='absolute top-4 right-4 w-8 h-8 fill-primary'
+                        />
+                        
+                    </div>
+                    ) : ""}
+                    <div className='flex flex-col w-full'>
+                        <p className='font-noto font-bold text-body text-4xl lg:text-7xl py-2'>{title}</p>
+                        <p className='font-noto font-normal text-secondary text-base py-2'>{subtitle}</p>
+                        
+                    </div>
+                    <div className='flex flex-col w-full gap-5'>
+                        <p className='font-noto text-body font-light text-[15px]'>{description[0]}</p>
+                        <div className='border-[1px] border-t border-subcolor-light'></div>
+                        <p className='font-noto text-body font-light text-[15px]'>{description[1]}</p>
+                        <div className='border-[1px] border-t border-subcolor-light'></div>
+                        <p className='font-noto text-body font-light text-[15px]'>{description[2]}</p>
                     </div>
                     {link && 
-                        <a className='w-full text-secondary link-hover' href={link} target="_blank">
-                            <div className='flex items-center justify-end py-3'>
-                                <p className='leading-1'>Explore</p>
-                                <ChevronRight className='chevronRight'/>
+                        <a className='text-secondary link-hover' href={link} target="_blank">
+                            <div className='inline-flex items-center justify-end p-3 gap-2 border-b border-b-secondary'>
+                                <p className='leading-1'>Click to Explore</p>
+                                <ArrowUpRight className='chevronRight'/>
                             </div>
                         </a>
                     }
                 </div>
-                <p className='font-noto text-body font-light text-[15px] max-w-63 h-26'>{description}</p>
+                    
             </div>
-        </>
+        </div>
+
     )
 }
