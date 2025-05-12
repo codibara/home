@@ -8,42 +8,32 @@ import cardsData from "../../data/cards.json";
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay } from 'swiper/modules';
-import { ChevronDoubleRight, ChevronDoubleLeft } from 'react-bootstrap-icons';
+import { ArrowLeftCircle, ArrowRightCircle } from 'react-bootstrap-icons';
 
 export default function CardCarousel() {
     return (
         <div className='relative w-full'>
-            <button className="swiper-button-prev-custom absolute hidden md:flex flex-row justify-center items-center w-14 h-14 top-1/2 rounded-full left-4 bg-secondary -translate-y-1/2 z-10 hover:cursor-pointer"><ChevronDoubleLeft color={'#ffffff'} size={32}/></button>
-            <button className="swiper-button-next-custom absolute hidden md:flex flex-row justify-center items-center w-14 h-14 top-1/2 rounded-full right-4 bg-secondary -translate-y-1/2 z-10 hover:cursor-pointer"><ChevronDoubleRight color={'#ffffff'} size={32}/></button>
+            <button className="swiper-button-prev-custom absolute group hidden md:flex flex-row justify-center items-center w-14 h-14 top-1/2 left-4 -translate-y-1/2 z-10 hover:cursor-pointer"><ArrowLeftCircle color={'#3F5161'} size={32} className='carousel-button'/></button>
+            <button className="swiper-button-next-custom absolute hidden group md:flex flex-row justify-center items-center w-14 h-14 top-1/2 right-4 -translate-y-1/2 z-10 hover:cursor-pointer"><ArrowRightCircle color={'#3F5161'} size={32} className='carousel-button'/></button>
             
             <Swiper
-                spaceBetween={8}
                 modules={[Navigation, Autoplay]}
-                className='w-full'
+                className='carousel'
                 loop={true}
                 navigation={{
                     nextEl: ".swiper-button-next-custom",
                     prevEl: ".swiper-button-prev-custom",
                 }}
                 autoplay={{ delay: 3000, disableOnInteraction: false }}
-                breakpoints={{
-                    430: {
-                        slidesPerView: 2,
-                    },
-                    768: {
-                        slidesPerView: 2,
-                    },
-                    1024: {
-                        slidesPerView: 4,
-                    },
-                }}
+                bslidesPerView={1}
             >
                 {cardsData.map((card) => (
-                <SwiperSlide key={card.id} className=''>
+                <SwiperSlide key={card.id} className='w-full'>
                     <Card 
                         image={card.image} 
                         title={card.title} 
                         description={card.description}
+                        subtitle={card.subtitle}
                         award={card.award} 
                         link={card.link}
                     />
