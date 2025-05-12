@@ -35,7 +35,7 @@ export default function Works() {
                     ref={ref}
                     animate={controls}
                     initial={{ opacity: 0, y: 100 }}
-                    className='w-full lg:w-11/12 lg:max-w-[1070px] flex flex-col px-4'
+                    className='w-full lg:max-w-[1070px] flex flex-col px-4'
                 >
                     <CardCarousel />
                 </motion.div>
