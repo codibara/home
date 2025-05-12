@@ -6,7 +6,6 @@ import { ChevronDoubleDown } from 'react-bootstrap-icons';
 import { useEffect } from 'react';
 import { Link, useLocation } from "react-router-dom";
 
-
 export default function Banner(){
     const location = useLocation();
     useEffect(() => {
@@ -21,7 +20,7 @@ export default function Banner(){
 
     return(
         <>
-         <div className='relative h-svh flex flex-col justify-center items-center'>
+         <div className='grid-background relative h-svh flex flex-col justify-center items-center'>
             <img
                 src={logo}
                 className='w-2/12 max-w-[300px] min-w-[200px]'
