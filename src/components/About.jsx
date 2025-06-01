@@ -5,10 +5,10 @@ import membersWeb from '/assets/members-web.png'
 
 export default function About(){
     return(
-        <div className='lg:h-svh max-h-[940px] flex flex-col items-center justify-between gap-4 mt-[-110px] md:mt-[-80px] pt-32 md:pt-20 pb-16 lg:py-32 bg-tertiary md:px-10' id='about'>
+        <div className='lg:h-svh max-h-[940px] flex flex-col items-center justify-between gap-4 mt-[-110px] md:mt-[-80px] pt-32 md:pt-20 lg:pt-32 pb-16 lg:pb-24 bg-tertiary md:px-10' id='about'>
             <div className='w-full max-w-[1440px] hidden md:flex flex-col'>
-                <p className='font-chivo text-[200px] text-primary leading-40'>Codi</p>
-                <p className='font-chivo text-[200px] text-primary leading-40'>Bara</p>
+                <p className='font-chivo text-[240px] text-primary leading-46'>Codi</p>
+                <p className='font-chivo text-[240px] text-primary leading-46'>Bara</p>
             </div>
             <div className='w-full max-w-[1440px] flex flex-col md:flex-row items-center md:items-end md:justify-end md:gap-4'>
                 <img 

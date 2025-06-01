@@ -49,10 +49,8 @@ a:hover{
   color: var(--color-primary);
 }
 
-.swiper{
+.swiper-wrapper{
   display: flex;
-  flex-direction: row;
-  justify-content: center;
   align-items: center;
 }
 

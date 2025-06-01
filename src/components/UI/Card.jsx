@@ -6,7 +6,7 @@ import { ArrowUpRight} from 'react-bootstrap-icons';
 export default function Card({ image, title, subtitle, description, link, award}){
     return(
         <div className='flex flex-row justify-center items-center'>
-            <div className='flex flex-col md:flex-row w-full h-full lg:h-[480px] md:w-11/12 max-w-[887px]'>
+            <div className='flex flex-col md:flex-row w-full h-full lg:h-[480px] md:w-11/12 max-w-[887px] '>
                 <img
                     className='w-full aspect-square object-cover object-top md:w-5/12 lg:w-[350px]' 
                     src={image}
