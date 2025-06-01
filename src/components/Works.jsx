@@ -24,7 +24,7 @@ export default function Works() {
 
     return (
         <div className='w-full grid-background'>
-            <div className='w-full max-w-[1440px] flex flex-col items-center pt-20 lg:pt-32 mx-auto' id='works'>
+            <div className='w-full max-w-[1440px] flex flex-col items-center pt-20 lg:pt-32 lg:pb-16 mx-auto' id='works'>
                 <div className='w-full flex flex-col md:flex-row md:justify-between px-2'>
                     <div className='font-chivo text-subcolor text-[36vw] md:text-[16vw] xl:text-[230px] leading-none tracking-tight'>What</div>
                     <div className='font-chivo text-subcolor text-[36vw] md:text-[16vw] xl:text-[230px] leading-none tracking-tight text-right md:text-left -my-10 md:my-0'>We</div>
