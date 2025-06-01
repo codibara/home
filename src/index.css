@@ -63,7 +63,7 @@ a:hover{
       height: 27px;
     }
 
-    .nav-item:hover{
+    .nav-item:hover, .nav-item:active, .nav-item:focus{
       color: var(--color-primary);
       border-bottom: 2px solid var(--color-primary);
       cursor: pointer;

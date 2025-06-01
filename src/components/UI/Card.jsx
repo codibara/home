@@ -6,12 +6,12 @@ import { ArrowUpRight} from 'react-bootstrap-icons';
 export default function Card({ image, title, subtitle, description, link, award}){
     return(
         <div className='flex flex-row justify-center items-center'>
-            <div className='flex flex-col md:flex-row w-full h-full md:w-11/12 max-w-[887px]'>
+            <div className='flex flex-col md:flex-row w-full h-full lg:h-[480px] md:w-11/12 max-w-[887px]'>
                 <img
                     className='w-full aspect-square object-cover object-top md:w-5/12 lg:w-[350px]' 
                     src={image}
                 />
-                <div className={`relative flex flex-col fl items-end gap-12 p-12 lg:pt-16 ${link ? 'lg:pb-8' : 'lg:pb-16'} lg:px-14 bg-[#fff] overflow-hidden`}>
+                <div className={`relative flex flex-col fl items-end gap-8 p-12 lg:pt-12 ${link ? 'lg:pb-8' : 'lg:pb-12'} lg:px-14 bg-[#fff] overflow-hidden`}>
                     {award ? (
                         <div className='absolute top-0 right-0'>
                         <div className='w-0 h-0 border-l-[95px] border-t-[95px] border-l-transparent border-t-tertiary'>
@@ -24,7 +24,7 @@ export default function Card({ image, title, subtitle, description, link, award}
                     </div>
                     ) : ""}
                     <div className='flex flex-col w-full'>
-                        <p className='font-noto font-bold text-body text-4xl lg:text-7xl py-2 -ml-[1px]'>{title}</p>
+                        <p className='font-noto font-semibold text-body text-4xl lg:text-7xl py-2 -ml-[1px]'>{title}</p>
                         <p className='font-noto font-normal text-secondary text-base py-2'>{subtitle}</p>
                         
                     </div>
