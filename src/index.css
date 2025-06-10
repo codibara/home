@@ -37,6 +37,10 @@ a:hover{
   color: var(--color-primary);
 }
 
+.link-hover:hover div{
+  border-bottom: 1px solid var(--color-primary);
+}
+
 .grid-background{
   background-image: url("/assets/grid.svg");
 }

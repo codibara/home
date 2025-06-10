@@ -47,17 +47,5 @@
     ],
     "image": "./assets/thumbnail-RG.png",
     "award": false
-  },
-  {
-    "id": 5,
-    "title": "Random Game2",
-    "subtitle": "Bring Online Retails In your Palm",
-    "description": [
-      "A web app for exploring Instagram businesses in one place",
-      "Clean, Card-Style Layout for Easy Browsing",
-      "Direct Link to Each Instagram Account for Quick Access"
-    ],
-    "image": "./assets/thumbnail-RG.png",
-    "award": false
   }
 ]

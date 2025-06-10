@@ -13,8 +13,8 @@ import { ArrowLeftCircle, ArrowRightCircle } from 'react-bootstrap-icons';
 export default function CardCarousel() {
     return (
         <div className='relative w-full'>
-            <button className="swiper-button-prev-custom absolute group hidden md:flex flex-row justify-center items-center w-10 h-10 top-1/2 left-0 -translate-y-1/2 z-10 hover:cursor-pointer"><ArrowLeftCircle color={'#3F5161'} size={32} className='carousel-button'/></button>
-            <button className="swiper-button-next-custom absolute hidden group md:flex flex-row justify-center items-center w-10 h-10 top-1/2 right-0 -translate-y-1/2 z-10 hover:cursor-pointer"><ArrowRightCircle color={'#3F5161'} size={32} className='carousel-button'/></button>
+            <button className="swiper-button-prev-custom absolute group hidden md:flex flex-row justify-center items-center w-10 h-10 top-1/2 left-0 -translate-y-1/2 z-10 hover:cursor-pointer"><ArrowLeftCircle size={32} className='carousel-button'/></button>
+            <button className="swiper-button-next-custom absolute hidden group md:flex flex-row justify-center items-center w-10 h-10 top-1/2 right-0 -translate-y-1/2 z-10 hover:cursor-pointer"><ArrowRightCircle size={32} className='carousel-button'/></button>
             
             <Swiper
                 modules={[Navigation, Autoplay]}
