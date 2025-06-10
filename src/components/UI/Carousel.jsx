@@ -18,7 +18,7 @@ export default function CardCarousel() {
             
             <Swiper
                 modules={[Navigation, Autoplay]}
-                className='flex flex-row justify-center items-center'
+                className='flex flex-row justify-center items-center w-full'
                 loop={true}
                 navigation={{
                     nextEl: ".swiper-button-next-custom",

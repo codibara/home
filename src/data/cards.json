@@ -2,11 +2,11 @@
   {
     "id": 1,
     "title": "thul.club",
-    "subtitle": "Bring Online Retails In your Palm",
+    "subtitle": "Real people. Real knowledge. Real connections",
     "description": [
-      "A web app for exploring Instagram businesses in one place",
-      "Clean, Card-Style Layout for Easy Browsing",
-      "Direct Link to Each Instagram Account for Quick Access"
+      "Your experience could be someone’s guide",
+      "Connecting those who want to learn with those who want to share",
+      "A matching platform for real knowledge and stories"
     ],
     "image": "./assets/thumbnail-thul.png",
     "award": true
@@ -16,9 +16,9 @@
     "title": "CAVY",
     "subtitle": "Capture, Archive, Vault, Your Moments.",
     "description": [
-      "A web app for exploring Instagram businesses in one place",
-      "Clean, Card-Style Layout for Easy Browsing",
-      "Direct Link to Each Instagram Account for Quick Access"
+      "For those with too much on their mind",
+      "Helps you remember, record, and remind",
+      "A smart app that makes everyday life memorable"
     ],
     "image": "./assets/thumbnail-cavy.png",
     "award": true
@@ -39,11 +39,11 @@
   {
     "id": 4,
     "title": "Random Game",
-    "subtitle": "Bring Online Retails In your Palm",
+    "subtitle": "No rules to learn — just tap and play!",
     "description": [
-      "A web app for exploring Instagram businesses in one place",
-      "Clean, Card-Style Layout for Easy Browsing",
-      "Direct Link to Each Instagram Account for Quick Access"
+      "For anyone who wants to spice up the party",
+      "Easy rules, fun games — all in one place",
+      "The ultimate random drinking game app"
     ],
     "image": "./assets/thumbnail-RG.png",
     "award": false

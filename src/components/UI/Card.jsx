@@ -5,18 +5,18 @@ import { ArrowUpRight, TrophyFill, AwardFill } from 'react-bootstrap-icons';
 
 export default function Card({ image, title, subtitle, description, link, award}){
     return(
-        <div className='flex flex-row justify-center items-center'>
+        <div className='flex flex-row justify-center items-center w-full'>
             <div className='flex flex-col md:flex-row w-full h-full lg:h-[480px] md:w-11/12 max-w-[887px] '>
                 <img
                     className='w-full aspect-square object-cover object-top md:w-5/12 lg:w-[350px]' 
                     src={image}
                 />
-                <div className={`relative flex flex-col fl items-end gap-8 p-12 lg:pt-12 ${link ? 'lg:pb-8' : 'lg:pb-12'} lg:px-14 bg-[#fff] overflow-hidden`}>
+                <div className={`relative flex flex-col fl items-end gap-8 p-12 lg:pt-12 ${link ? 'lg:pb-8' : 'lg:pb-12'} lg:px-14 bg-[#fff] overflow-hidden w-full`}>
                     {award ? (
                         <div className='absolute top-0 right-0'>
                         <div className='w-0 h-0 border-l-[95px] border-t-[95px] border-l-transparent border-t-tertiary'>
                         </div>
-                        <AwardFill size={28} className='absolute top-4 right-4' color='rgba(206,91,22,1)'/>
+                        <TrophyFill size={28} className='absolute top-4 right-4' color='rgba(206,91,22,1)'/>
                     </div>
                     ) : ""}
                     <div className='flex flex-col w-full'>
@@ -24,7 +24,7 @@ export default function Card({ image, title, subtitle, description, link, award}
                         <p className='font-noto font-normal text-secondary text-base py-2'>{subtitle}</p>
                         
                     </div>
-                    <div className='flex flex-col w-full gap-5'>
+                    <div className='flex flex-col w-full gap-5 flex'>
                         <p className='font-noto text-body font-light text-[15px]'>{description[0]}</p>
                         <div className='border-[1px] border-t border-subcolor-light'></div>
                         <p className='font-noto text-body font-light text-[15px]'>{description[1]}</p>
