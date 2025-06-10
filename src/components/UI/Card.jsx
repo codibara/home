@@ -1,7 +1,7 @@
 import '../../index.css'
 import awardMark from '/assets/Award-mark.svg';
 
-import { ArrowUpRight} from 'react-bootstrap-icons';
+import { ArrowUpRight, TrophyFill, AwardFill } from 'react-bootstrap-icons';
 
 export default function Card({ image, title, subtitle, description, link, award}){
     return(
@@ -16,11 +16,7 @@ export default function Card({ image, title, subtitle, description, link, award}
                         <div className='absolute top-0 right-0'>
                         <div className='w-0 h-0 border-l-[95px] border-t-[95px] border-l-transparent border-t-tertiary'>
                         </div>
-                        <img
-                            src={awardMark}
-                            className='absolute top-4 right-4 w-8 h-8 fill-primary'
-                        />
-                        
+                        <AwardFill size={28} className='absolute top-4 right-4' color='rgba(206,91,22,1)'/>
                     </div>
                     ) : ""}
                     <div className='flex flex-col w-full'>
