@@ -24,11 +24,11 @@ export default function Card({ image, title, subtitle, description, link, award}
                         <p className='font-noto font-normal text-secondary text-base py-2'>{subtitle}</p>
                         
                     </div>
-                    <div className='flex flex-col w-full gap-5 flex'>
+                    <div className='flex flex-col w-full gap-5'>
                         <p className='font-noto text-body font-light text-[15px]'>{description[0]}</p>
                         <div className='border-[1px] border-t border-subcolor-light'></div>
                         <p className='font-noto text-body font-light text-[15px]'>{description[1]}</p>
-                        <div className='border-[1px] border-t border-subcolor-light'></div>
+                        {description[2] && <div className='border-[1px] border-t border-subcolor-light'></div>}
                         <p className='font-noto text-body font-light text-[15px]'>{description[2]}</p>
                     </div>
                     {link && 
