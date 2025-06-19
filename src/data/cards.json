@@ -8,8 +8,7 @@
       "Connecting those who want to learn with those who want to share",
       "A matching platform for real knowledge and stories"
     ],
-    "image": "./assets/thumbnail-thul.png",
-    "award": true
+    "image": "./assets/thumbnail-thul.png"
   },
   {
     "id": 2,
@@ -21,7 +20,8 @@
       "A smart app that makes everyday life memorable"
     ],
     "image": "./assets/thumbnail-cavy.png",
-    "award": true
+    "awardName": "Flextudio Hackathon",
+    "link": "https://cavy.app.flextudio.com"
   },
   {
     "id": 3,
@@ -33,8 +33,7 @@
       "Direct Link to Each Instagram Account for Quick Access"
     ],
     "image": "./assets/thumbnail-bori.png",
-    "award": false,
-    "link" : "https://www.codibara.com/"
+    "link" : "https://bori.codibara.com/"
   },
   {
     "id": 4,
@@ -44,7 +43,6 @@
       "For anyone who wants to spice up the party",
       "Easy rules, fun games — all in one place"
     ],
-    "image": "./assets/thumbnail-RG.png",
-    "award": false
+    "image": "./assets/thumbnail-RG.png"
   }
 ]

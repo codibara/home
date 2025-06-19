@@ -3,7 +3,7 @@ import awardMark from '/assets/Award-mark.svg';
 
 import { ArrowUpRight, TrophyFill, AwardFill } from 'react-bootstrap-icons';
 
-export default function Card({ image, title, subtitle, description, link, award}){
+export default function Card({ image, title, subtitle, description, link, awardName}){
     return(
         <div className='flex flex-row justify-center items-center w-full'>
             <div className='flex flex-col md:flex-row w-full h-full lg:h-[480px] md:w-11/12 max-w-[887px] '>
@@ -12,13 +12,12 @@ export default function Card({ image, title, subtitle, description, link, award}
                     src={image}
                 />
                 <div className={`relative flex flex-col fl items-end gap-8 p-12 lg:pt-12 ${link ? 'lg:pb-8' : 'lg:pb-12'} lg:px-14 bg-[#fff] overflow-hidden w-full`}>
-                    {award ? (
-                        <div className='absolute top-0 right-0'>
-                        <div className='w-0 h-0 border-l-[95px] border-t-[95px] border-l-transparent border-t-tertiary'>
-                        </div>
-                        <TrophyFill size={28} className='absolute top-4 right-4' color='rgba(206,91,22,1)'/>
-                    </div>
-                    ) : ""}
+                    {awardName && (
+                        <div className='absolute top-[26px] right-[46px] flex flex-row justify-center items-center gap-2 py-1 px-2 bg-tertiary rounded-sm'>
+                            <TrophyFill size={16} color='rgba(206,91,22,1)'/>
+                            <p className='font-medium text-sm text-secondary font-chivo'>{awardName}</p>
+                    </div>)
+                    }
                     <div className='flex flex-col w-full'>
                         <p className='font-noto font-semibold text-body text-4xl lg:text-7xl py-2 -ml-[1px]'>{title}</p>
                         <p className='font-noto font-normal text-secondary text-base py-2'>{subtitle}</p>
