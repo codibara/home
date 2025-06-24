@@ -3,7 +3,7 @@ import awardMark from '/assets/Award-mark.svg';
 
 import { ArrowUpRight, TrophyFill, AwardFill } from 'react-bootstrap-icons';
 
-export default function Card({ image, title, subtitle, description, link, awardName}){
+export default function Card({ image, title, subtitle, description, link, awardName, awardLink}){
     return(
         <div className='flex flex-row justify-center items-center w-full'>
             <div className='flex flex-col md:flex-row w-full h-full lg:h-[480px] md:w-11/12 max-w-[887px] '>
@@ -15,7 +15,7 @@ export default function Card({ image, title, subtitle, description, link, awardN
                     {awardName && (
                         <div className='absolute top-[26px] right-[46px] flex flex-row justify-center items-center gap-2 py-1 px-2 bg-tertiary rounded-sm'>
                             <TrophyFill size={16} color='rgba(206,91,22,1)'/>
-                            <p className='font-medium text-sm text-secondary font-chivo'>{awardName}</p>
+                            <a href={awardLink} target='_blank'className='font-medium text-sm text-secondary font-chivo'>{awardName}</a>
                     </div>)
                     }
                     <div className='flex flex-col w-full'>

@@ -8,7 +8,9 @@
       "Connecting those who want to learn with those who want to share",
       "A matching platform for real knowledge and stories"
     ],
-    "image": "./assets/thumbnail-thul.png"
+    "awardName": "Silicon Valley Startup Ideathon",
+    "image": "./assets/thumbnail-thul.png",
+    "awardlink" : "https://www.newsprime.co.kr/news/article/?no=609556"
   },
   {
     "id": 2,
@@ -20,8 +22,9 @@
       "A smart app that makes everyday life memorable"
     ],
     "image": "./assets/thumbnail-cavy.png",
-    "awardName": "Flextudio Hackathon",
-    "link": "https://cavy.app.flextudio.com"
+    "awardName": "Low-code App Competition",
+    "link": "https://cavy.app.flextudio.com",
+    "awardlink" : "https://flextudio.com/blog/archives/2652"
   },
   {
     "id": 3,

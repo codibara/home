@@ -36,6 +36,7 @@ export default function CardCarousel() {
                         subtitle={card.subtitle}
                         awardName={card.awardName} 
                         link={card.link}
+                        awardLink={card.awardlink}
                         
                     />
                 </SwiperSlide>
