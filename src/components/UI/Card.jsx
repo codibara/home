@@ -6,7 +6,7 @@ import { ArrowUpRight, TrophyFill, AwardFill } from 'react-bootstrap-icons';
 export default function Card({ image, title, subtitle, description, link, awardName, awardLink}){
     return(
         <div className='flex flex-row justify-center items-center w-full'>
-            <div className='flex flex-col md:flex-row w-full h-full lg:h-[480px] md:w-11/12 max-w-[887px] '>
+            <div className='flex flex-col md:flex-row w-full h-full lg:h-[500px] md:w-11/12 max-w-[887px] '>
                 <img
                     className='w-full aspect-square object-cover object-top md:w-5/12 lg:w-[350px]' 
                     src={image}
