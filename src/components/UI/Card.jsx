@@ -15,11 +15,11 @@ export default function Card({ image, title, subtitle, description, link, awardN
                     {awardName && (
                         <div className='absolute top-[26px] right-[46px] flex flex-row justify-center items-center gap-2 py-1 px-2 bg-tertiary rounded-sm'>
                             <TrophyFill size={16} color='rgba(206,91,22,1)'/>
-                            <a href={awardLink} target='_blank'className='font-medium text-sm text-secondary font-chivo'>{awardName}</a>
+                            <a href={awardLink} target='_blank' className='font-light text-sm text-secondary font-chivo'>{awardName}</a>
                     </div>)
                     }
                     <div className='flex flex-col w-full'>
-                        <p className='font-noto font-semibold text-body text-4xl lg:text-7xl py-2 -ml-[1px]'>{title}</p>
+                        <p className={`font-noto font-semibold text-body text-4xl lg:text-7xl py-2 ${awardName && "pt-6"} -ml-[1px]`}>{title}</p>
                         <p className='font-noto font-normal text-secondary text-base py-2'>{subtitle}</p>
                         
                     </div>
