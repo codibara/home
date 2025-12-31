@@ -30,10 +30,12 @@ export default function Header() {
                     <li className='nav-item'>Privacy Policy</li>
                 </nav>
             ) : (
-                <nav className='flex justify-center gap-16 py-3'>
-                    <li className='nav-item'><Link to="#about">About</Link></li>
-                    <li className='nav-item'><Link to="#works">Works</Link></li>
-                    <li className='nav-item'><Link to="#team">Team</Link></li>
+                <nav>
+                    <ul className='flex justify-center gap-16 py-3'>
+                        <li className='nav-item'><Link to="#about">About</Link></li>
+                        <li className='nav-item'><Link to="#works">Works</Link></li>
+                        <li className='nav-item'><Link to="#team">Team</Link></li>
+                    </ul>
                 </nav>
             )}
         </div>

@@ -24,6 +24,7 @@ export default function Banner(){
             <img
                 src={logo}
                 className='w-2/12 max-w-[300px] min-w-[200px]'
+                alt='codibara logo'
             />
             <div className='absolute bottom-6 flex flex-col items-center'>
                 <Link to='#about'>

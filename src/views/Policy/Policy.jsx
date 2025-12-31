@@ -1,10 +1,14 @@
 import '../../index.css'
-import logo from '/assets/codibara-sample-logo.png';
+import { useSeo } from '../../hooks/useSeo';
 import PolicyData from '../../data/privacyPolicy.json';
 
 import Header from '../../shared/Header/Header';
 
 export default function Policy() {
+    useSeo({
+        title: 'Codibara – Privacy Policy',
+        description: 'Your privacy is our top priority.'
+      })
     return(
         <>
             <Header />
